@@ -8,3 +8,5 @@ const Header = ({profileImg, username}) => {
     </>
   )
 }
+
+export default Header
