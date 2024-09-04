@@ -3,8 +3,12 @@ import Header from './Header';
 import Body from './Body';
 
 const Card = (props) => {
+    const { profileImg, username, comment } = props.commentObject;
     return (
-      <div>Card</div>
+      <div>
+        <Header profileImg={profileImg} username={username}/>
+        <Body comment={comment}/>
+      </div>
     )
   }
   
